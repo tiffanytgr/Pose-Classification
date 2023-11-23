@@ -2,10 +2,9 @@ opencv-python-headless
 mediapipe
 streamlit
 numpy
-os
 math
 PIL
 pickle
 sounddevice
-ppandas
+pandas
 warnings

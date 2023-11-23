@@ -2,7 +2,6 @@ opencv-python-headless
 mediapipe
 streamlit
 numpy
-math
 PIL
 pickle
 sounddevice

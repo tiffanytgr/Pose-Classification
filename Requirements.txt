@@ -1,0 +1,13 @@
+opencv-python-headless
+mediapipe
+tempfile
+streamlit
+numpy
+csv
+os
+math
+PIL
+pickle
+sounddevice
+ppandas
+warnings

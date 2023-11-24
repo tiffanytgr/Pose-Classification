@@ -16,7 +16,7 @@ import sounddevice as sd
 import pandas as pd
 import warnings
 
-import streamlit-webrtc
+import streamlit_webrtc
 warnings.filterwarnings("ignore")
 
 

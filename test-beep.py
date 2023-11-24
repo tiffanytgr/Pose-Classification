@@ -19,7 +19,7 @@ import warnings
 import streamlit_webrtc
 warnings.filterwarnings("ignore")
 
-
+from streamlit_webrtc import VideoProcessorBase, webrtc_streamer
 
 # default demo video 
 DEMO_VIDEO = 'data/good_pose/sample-running-good-1.mp4'
@@ -76,7 +76,14 @@ def main():
     if not video_file_buffer:
 
         if use_webcam:
-            vid = cv2.VideoCapture(0)
+            # vid = cv2.VideoCapture(0)
+            vid = webrtc_streamer(
+                key="opencv-filter",
+                mode=WebRtcMode.SENDRECV,
+                rtc_configuration=RTC_CONFIGURATION,
+                video_processor_factory=OpenCVVideoProcessor,
+                async_processing=True,
+            )    
         else:
             vid = cv2.VideoCapture(DEMO_VIDEO)
             tfflie.name = DEMO_VIDEO

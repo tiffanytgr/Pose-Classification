@@ -79,10 +79,10 @@ def main():
             # vid = cv2.VideoCapture(0)
             vid = webrtc_streamer(
                 key="opencv-filter",
-                mode=WebRtcMode.SENDRECV,
+                # mode=WebRtcMode.SENDRECV,
                 rtc_configuration={"iceServers": [{"urls": ["stun:stun.l.google.com:19302"]}]},
                 # video_processor_factory=OpenCVVideoProcessor,
-                async_processing=True,
+                # async_processing=True,
                 media_stream_constraints={
                     "video": True,
                     "audio": False

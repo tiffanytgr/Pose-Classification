@@ -1,0 +1,6 @@
+opencv-python-headless
+mediapipe
+streamlit
+numpy
+sounddevice
+pandas

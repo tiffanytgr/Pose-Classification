@@ -15,6 +15,8 @@ import pickle
 import sounddevice as sd
 import pandas as pd
 import warnings
+
+import streamlit-webrtc
 warnings.filterwarnings("ignore")
 
 

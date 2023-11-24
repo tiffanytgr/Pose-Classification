@@ -5,3 +5,4 @@ numpy
 sounddevice
 pandas
 imblearn
+scikit-learn==1.2.2

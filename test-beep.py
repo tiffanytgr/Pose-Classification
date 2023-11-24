@@ -8,6 +8,7 @@ import numpy as np
 import csv
 import os
 import math as m
+import imblearn
 from PIL import ImageFont, ImageDraw, Image
 
 import pickle

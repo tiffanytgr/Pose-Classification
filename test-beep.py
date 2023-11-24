@@ -80,7 +80,7 @@ def main():
             vid = webrtc_streamer(
                 key="opencv-filter",
                 mode=WebRtcMode.SENDRECV,
-                rtc_configuration=RTC_CONFIGURATION,
+                rtc_configuration={"iceServers": [{"urls": ["stun:stun.l.google.com:19302"]}]},
                 video_processor_factory=OpenCVVideoProcessor,
                 async_processing=True,
             )    

@@ -19,7 +19,7 @@ import warnings
 import streamlit_webrtc
 warnings.filterwarnings("ignore")
 
-from streamlit_webrtc import VideoProcessorBase, webrtc_streamer
+from streamlit_webrtc import VideoProcessorBase, webrtc_streamer, WebRtcMode
 
 # default demo video 
 DEMO_VIDEO = 'data/good_pose/sample-running-good-1.mp4'

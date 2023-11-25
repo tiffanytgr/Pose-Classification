@@ -287,8 +287,8 @@ def main():
 #     st.success('Video is Processed')
 #     st.stop()
 
-# if __name__ == '__main__':
-#     main()
+if __name__ == '__main__':
+    main()
 
 
-# # py -m streamlit run d:/capstone-running-form/test-beep.py
+# # # py -m streamlit run d:/capstone-running-form/test-beep.py

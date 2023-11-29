@@ -46,7 +46,6 @@ def calculate_angle(a,b,c):
         
     return angles
 
-
 def main():
 
     #title 
